@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/subscription.css" />
+    <title>subscription</title>
+  </head>
+  <body>
+    <h1>Subscription Form</h1>
+    <form method="get">
+      <input
+        type="text"
+        name="firstName"
+        id="firstName"
+        placeholder="first name"
+      />
+      <input
+        type="text"
+        name="lastName"
+        id="lastName"
+        placeholder="last name"
+      />
+      <input type="text" name="address" id="address" placeholder="address" />
+      <input type="text" name="city" id="city" placeholder="city" />
+      <input type="text" name="state" id="state" placeholder="state" />
+      <input type="text" name="zip" id="zip" placeholder="zip" />
+
+      <div class="radio">
+        <h3>Subscribe For :</h3>
+        <div>
+          <input type="radio" name="subDuration" id="1" value="1" />
+          <label for="1">1 year ($19.91)</label>
+        </div>
+        <div>
+          <input type="radio" name="subDuration" id="2" value="2" />
+          <label for="2">2 years ($35.00)</label>
+        </div>
+      </div>
+
+      <div class="checkbox">
+        <h3>Give me more information about :</h3>
+        <div>
+          <input
+            type="checkbox"
+            name="zines"
+            id="computer"
+            value="computer-zine"
+          />
+          <label for="computer">Computer-Zine</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="zines"
+            id="fishing"
+            value="fishing-zine"
+          />
+          <label for="fishing">Fishing-Zine</label>
+        </div>
+        <div>
+          <input type="checkbox" name="zines" id="cai" value="cai-o-zine" />
+          <label for="cai">Cai-O-Zine</label>
+        </div>
+      </div>
+
+      <input type="submit" value="Yes! I want to subscribe to Mag-O-Zine" />
+    </form>
+  </body>
+</html>

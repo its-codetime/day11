@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>day 11</title>
+  </head>
+  <body>
+    <h1>DAY 11 HTML Assignment</h1>
+    <section>
+      <h2>link to contact us form</h2>
+      <button class="contactUsButton">
+        <a href="./pages/contactUs.html" target="_blank">contact us</a>
+      </button>
+    </section>
+    <section>
+      <h2>Lists ordered and unordered nested</h2>
+      <h3>programming languages</h3>
+      <ol>
+        <li>
+          javascript
+          <ul>
+            <li>angular</li>
+            <li>react</li>
+            <li>vue</li>
+          </ul>
+        </li>
+        <li>
+          python
+          <ul>
+            <li>django framework</li>
+            <li>flask framework</li>
+          </ul>
+        </li>
+        <li>
+          java
+          <ul>
+            <li>spring</li>
+            <li>maven</li>
+            <li>hibernate</li>
+          </ul>
+        </li>
+        <li>
+          database
+          <ul>
+            <li>Mysql</li>
+            <li>mongoDB</li>
+            <li>Casandra</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <section>
+      <h2>link to google</h2>
+      <button class="linkToGoogle">
+        <a href="https://www.google.com" target="_blank">Link to google</a>
+      </button>
+    </section>
+    <section>
+      <h2>radio buttons group</h2>
+      <div class="radio">
+        <h3>choose if you are salaried or own a business</h3>
+        <div>
+          <input type="radio" name="radio" id="salaried" value="salaried" />
+          <label for="salaried">Salaried</label>
+        </div>
+        <div>
+          <input type="radio" name="radio" id="own" value="own business" />
+          <label for="own">Own business</label>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>link to subscription form</h2>
+      <button class="subscription">
+        <a href="./pages/subscription.html" target="_blank"
+          >subscription form</a
+        >
+      </button>
+    </section>
+
+    <section>
+      <h2>Health chart Table</h2>
+      <table>
+        <tr>
+          <th rowspan="2">
+            <h3>State of Health</h3>
+          </th>
+          <th colspan="2">
+            <h3>Fasting Value</h3>
+          </th>
+          <th>
+            <h3>After eating</h3>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <h3>Minimum</h3>
+          </th>
+          <th>
+            <h3>Maximum</h3>
+          </th>
+          <th>
+            <h3>2 hours after eating</h3>
+          </th>
+        </tr>
+
+        <tr>
+          <td>Healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less than 140</td>
+        </tr>
+        <tr>
+          <td>Pre-Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+        </tr>
+        <tr>
+          <td>Diabetes</td>
+          <td>More than 126</td>
+          <td>N/A</td>
+          <td>More than 200</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>html form input elements default values</h2>
+      <div>
+        <input type="text" value="default value" placeholder="placeholder" />
+        <label>default value for text input type</label>
+        <br />
+        <input type="checkbox" checked />
+        <label>checkbox checked</label>
+        <br />
+        <input type="button" value="button" />
+        <br />
+        <input type="color" value="#000000" />
+        <label>default color black</label>
+        <br />
+        <input type="date" value="2022-01-01" />
+        <label>default date new year</label>
+      </div>
+    </section>
+
+    <section>
+      <h2>html text highlighting</h2>
+      <div class="highlight"><mark>HTML and CSS is awesome.</mark></div>
+    </section>
+
+    <section>
+      <div>
+        <h2>html form input elements</h2>
+        <label>button</label>
+
+        <input type="button" value="button" />
+        <br />
+        <label>checkbox</label>
+        <input type="checkbox" />
+        <br />
+        <label>color</label>
+        <input type="color" />
+        <br />
+        <label>date</label>
+        <input type="date" />
+        <br />
+        <label>datetime</label>
+        <input type="datetime-local" />
+        <br />
+        <label>email</label>
+        <input type="email" placeholder="email" />
+        <br />
+        <label>file</label>
+        <input type="file" />
+        <br />
+        <label>hidden input</label>
+        <input type="hidden" />
+        <br />
+        <label>image</label>
+        <input type="image" />
+        <br />
+        <label>month</label>
+        <input type="month" />
+        <br />
+        <label>number</label>
+        <input type="number" />
+        <br />
+        <label>password</label>
+        <input type="password" placeholder="password" />
+        <br />
+        <label>radio</label>
+        <input type="radio" />
+        <br />
+        <label>range</label>
+        <input type="range" />
+        <br />
+        <label>reset</label>
+        <input type="reset" />
+        <br />
+        <label>search</label>
+        <input type="search" />
+        <br />
+        <label>submit</label>
+        <input type="submit" />
+        <br />
+        <label>text</label>
+        <input type="text" />
+        <br />
+        <label>time</label>
+        <input type="time" />
+        <br />
+        <label>url</label>
+        <input type="url" />
+        <br />
+        <label>week</label>
+        <input type="week" />
+        <br />
+        <label>textarea</label>
+        <textarea cols="30" rows="10"></textarea>
+        <br />
+        <label>select</label>
+        <select>
+          <option value="">option 1</option>
+          <option value="">option 2</option>
+          <option value="">option 3</option>
+        </select>
+      </div>
+    </section>
+  </body>
+</html>
