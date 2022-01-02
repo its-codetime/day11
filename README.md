@@ -98,4 +98,4 @@ link: https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
 - [x] Write HTML input tags snippet to show default values for all Form elements.
 - [x] In your, HTML page add the below line and Highlight it without using any CSS.
   "HTML & CSS is awesome"
-- [ ] Create an HTML page, which should contain all types of input elements.
+- [x] Create an HTML page, which should contain all types of input elements.
